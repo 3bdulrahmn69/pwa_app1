@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click Challenge</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Manifest -->
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Click Challenge</h1>
+      <p class="subtitle">Click 10 times in under 2 seconds!</p>
+    </header>
+
+    <div class="game-container">
+      <div class="score-board">
+        <div>Time: <span id="timer">0.00</span>s</div>
+        <div>Clicks: <span id="click-count">0</span>/10</div>
+      </div>
+
+      <button id="click-target" class="game-button">CLICK ME!</button>
+
+      <div id="result" class="result"></div>
+
+      <div class="game-controls">
+        <button id="reset-btn" class="control-button">Reset Game</button>
+        <a href="index.html" class="control-button">Back to Home</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="clicker.js"></script>
+</body>
+
+</html>

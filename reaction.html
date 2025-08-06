@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reaction Test</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Manifest -->
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Reaction Test</h1>
+      <p class="subtitle">Click when the screen turns green!</p>
+    </header>
+
+    <div class="game-container">
+      <div class="score-board">
+        <div>Reaction Time: <span id="reaction-time">0.00</span>s</div>
+        <div>Best Time: <span id="best-time">0.00</span>s</div>
+      </div>
+
+      <div id="reaction-box" class="reaction-box">
+        <p>Wait for green...</p>
+      </div>
+
+      <div id="result" class="result"></div>
+
+      <div class="game-controls">
+        <button id="start-btn" class="control-button">Start Game</button>
+        <a href="index.html" class="control-button">Back to Home</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="reaction.js"></script>
+</body>
+
+</html>
