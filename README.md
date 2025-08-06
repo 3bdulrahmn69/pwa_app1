@@ -1,4 +1,3 @@
-````markdown
 # Simple Games Hub - Progressive Web App
 
 A collection of fun mini-games packaged as a Progressive Web App (PWA) that you can play directly in your browser or install on your device!
