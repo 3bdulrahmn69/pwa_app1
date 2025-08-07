@@ -30,6 +30,12 @@
         <h2>Reaction Test</h2>
         <p>Click when the screen turns green!</p>
       </div>
+
+      <div class="game-card" onclick="location.href='api.html'">
+        <div class="game-icon">⚡</div>
+        <h2>API Data Hub</h2>
+        <p>Fetch and explore data from external APIs!</p>
+      </div>
     </div>
 
     <div class="instructions">
@@ -44,6 +50,21 @@
       <p>Created with HTML, CSS & JavaScript</p>
     </footer>
   </div>
+
+  <script>
+    // Register Service Worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then((registration) => {
+            console.log('SW registered: ', registration);
+          })
+          .catch((registrationError) => {
+            console.log('SW registration failed: ', registrationError);
+          });
+      });
+    }
+  </script>
 </body>
 
 </html>

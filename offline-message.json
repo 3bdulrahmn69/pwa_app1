@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "title": "Offline Mode - Cached Content",
+    "body": "You are currently offline. This is cached content from your last visit. Some features may not be available until you reconnect to the internet."
+  },
+  {
+    "id": 2,
+    "userId": 1,
+    "title": "Service Worker Active",
+    "body": "The Progressive Web App is working in offline mode. Your data is being served from the local cache to provide a seamless experience."
+  },
+  {
+    "id": 3,
+    "userId": 1,
+    "title": "Reconnect for Fresh Data",
+    "body": "To get the latest content and full functionality, please check your internet connection and try refreshing the page when you're back online."
+  }
+]
